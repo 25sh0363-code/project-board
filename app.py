@@ -4,13 +4,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 import os
-import json
-from gtts import gTTS
-import base64
-from io import BytesIO
-import speech_recognition as sr
-import feedparser
-import numpy as np
 
 st.set_page_config(
     page_title="Disease Tracker Pro",
@@ -36,101 +29,116 @@ DISEASES = [
     "COVID-19", "Colon Cancer", "Alzheimer's"
 ]
 
+country = st.sidebar.selectbox("Select Country", COUNTRIES)
+disease = st.sidebar.selectbox("Select Disease", DISEASES)
 
 compare_mode = st.sidebar.checkbox("🔄 Compare with another country")
 if compare_mode:
     country2 = st.sidebar.selectbox("Compare with", [c for c in COUNTRIES if c != country])
-country = st.sidebar.selectbox("Select Country", COUNTRIES)
-disease = st.sidebar.selectbox("Select Disease", DISEASES)
 
 disease_file = disease.lower().replace("-", "").replace("/", "_").replace(" ", "_")
+country_file = country.lower().replace(" ", "_")
+data_file = f"data/{disease_file}_{country_file}.csv"
+history_file = f"content/history/{disease_file}_{country_file}.txt"
+
 with tab1:
     st.header(f"{disease} in {country}")
 
-    history_file = f"content/history/{disease_file}_{country_file}.txt"
-
-st.header(f"{disease} in {country}")
-
-if os.path.exists(data_file):
-    try:
-        data = pd.read_csv(data_file)
-        data['date'] = pd.to_datetime(data['date'])
-        
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.metric("Total Cases", f"{data['cases'].sum():,}")
-        with col2:
-            st.metric("Total Deaths", f"{data['deaths'].sum():,}")
-        
-        if compare_mode:
-            country_file2 = country2.lower().replace(" ", "_")
-            data_file2 = f"data/{disease_file}_{country_file2}.csv"
-            if os.path.exists(data_file2):
-                data2 = pd.read_csv(data_file2)
-                data2['date'] = pd.to_datetime(data2['date'])
-                
-                fig = go.Figure()
-                fig.add_trace(go.Scatter(x=data['date'], y=data['cases'], 
-                                        mode='lines', name=country,
-                                        line=dict(color='blue', width=3)))
-                fig.add_trace(go.Scatter(x=data2['date'], y=data2['cases'], 
-                                        mode='lines', name=country2,
-                                        line=dict(color='red', width=3)))
-                fig.update_layout(title=f'{disease} Cases Comparison',
-                                 xaxis_title='Date', yaxis_title='Cases',
-                                 height=500, hovermode='x unified')
-                st.plotly_chart(fig, use_container_width=True)
+    if os.path.exists(data_file):
+        try:
+            data = pd.read_csv(data_file)
+            data['date'] = pd.to_datetime(data['date'])
+            
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.metric("Total Cases", f"{data['cases'].sum():,}")
+            with col2:
+                st.metric("Total Deaths", f"{data['deaths'].sum():,}")
+            with col3:
+                latest_cases = data['cases'].iloc[-1]
+                st.metric("Latest Daily Cases", f"{latest_cases:,}")
+            
+            st.subheader("📊 Historical Data")
+            
+            if compare_mode:
+                country_file2 = country2.lower().replace(" ", "_")
+                data_file2 = f"data/{disease_file}_{country_file2}.csv"
+                if os.path.exists(data_file2):
+                    data2 = pd.read_csv(data_file2)
+                    data2['date'] = pd.to_datetime(data2['date'])
+                    
+                    fig = go.Figure()
+                    fig.add_trace(go.Scatter(x=data['date'], y=data['cases'], 
+                                            mode='lines', name=country,
+                                            line=dict(color='blue', width=3)))
+                    fig.add_trace(go.Scatter(x=data2['date'], y=data2['cases'], 
+                                            mode='lines', name=country2,
+                                            line=dict(color='red', width=3)))
+                    fig.update_layout(title=f'{disease} Cases Comparison',
+                                     xaxis_title='Date', yaxis_title='Cases',
+                                     height=500, hovermode='x unified')
+                    st.plotly_chart(fig, use_container_width=True)
+                else:
+                    st.warning(f"Data for {country2} not available")
+                    fig = px.area(data, x='date', y='cases', 
+                                 title=f'{disease} Cases Over Time in {country}',
+                                 labels={'cases': 'Daily Cases', 'date': 'Date'})
+                    fig.update_traces(line_color='#1f77b4', fillcolor='rgba(31, 119, 180, 0.3)')
+                    fig.update_layout(height=500, hovermode='x')
+                    st.plotly_chart(fig, use_container_width=True)
             else:
-                st.warning(f"Data for {country2} not available")
-                fig = px.line(data, x='date', y='cases', 
+                fig = px.area(data, x='date', y='cases', 
                              title=f'{disease} Cases Over Time in {country}',
                              labels={'cases': 'Daily Cases', 'date': 'Date'})
-                fig.update_layout(height=500)
+                fig.update_traces(line_color='#1f77b4', fillcolor='rgba(31, 119, 180, 0.3)')
+                fig.update_layout(height=500, hovermode='x')
                 st.plotly_chart(fig, use_container_width=True)
-        else:
-            fig = px.area(data, x='date', y='cases', 
-                         title=f'{disease} Cases Over Time in {country}',
-                         labels={'cases': 'Daily Cases', 'date': 'Date'})
-            fig.update_traces(line_color='#1f77b4', fillcolor='rgba(31, 119, 180, 0.3)')
-            fig.update_layout(height=500, hovermode='x')
-            st.subheader("📊 Historical Data")
-        fig = px.line(data, x='date', y='cases', 
-                     title=f'{disease} Cases Over Time in {country}',
-                     labels={'cases': 'Daily Cases', 'date': 'Date'})
-        fig.update_layout(height=500)
-        st.plotly_chart(fig, use_container_width=True)
-        
+            
+            fig_deaths = px.line(data, x='date', y='deaths',
+                                title=f'{disease} Deaths Over Time in {country}',
+                                labels={'deaths': 'Daily Deaths', 'date': 'Date'},
+                                line_shape='linear')
+            fig_deaths.update_traces(line_color='red')
+            fig_deaths.update_layout(height=400)
+            st.plotly_chart(fig_deaths, use_container_width=True)
+            
+            st.subheader("🔍 Daily Case Finder")
+            selected_date = st.date_input("Select a date to view cases", 
+                                          value=data['date'].max(),
+                                          min_value=data['date'].min().date(),
+                                          max_value=data['date'].max().date())
+            
+            selected_data = data[data['date'].dt.date == selected_date]
+            if not selected_data.empty:
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.info(f"**Cases on {selected_date}:** {selected_data['cases'].values[0]:,}")
+                with col2:
+                    st.info(f"**Deaths on {selected_date}:** {selected_data['deaths'].values[0]:,}")
+            else:
+                st.warning("No data available for selected date")
+            
+            st.subheader("📈 Predictions (Next 30 Days)")
+            st.info("Prediction model will be implemented here")
+            
+        except Exception as e:
+            st.error(f"Error loading data: {str(e)}")
     else:
         st.warning(f"⚠️ Data file not found: `{data_file}`")
         st.info("Please add the dataset file to continue.")
 
-            fig_deaths.update_traces(line_color='red')
+    st.subheader("📖 Disease History")
     if os.path.exists(history_file):
         try:
             with open(history_file, 'r', encoding='utf-8') as f:
                 history_text = f.read()
-            
-            col1, col2 = st.columns([5, 1])
-            with col1:
-                st.write(history_text)
-            with col2:
-                if st.button("🔊 Listen", key="tts_btn"):
-                    tts = gTTS(text=history_text, lang='en', slow=False)
-                    audio_bytes = BytesIO()
-                    tts.write_to_fp(audio_bytes)
-                    audio_bytes.seek(0)
-                    st.audio(audio_bytes, format='audio/mp3')
+            st.write(history_text)
         except Exception as e:
             st.error(f"Error loading history: {str(e)}")
     else:
         st.warning(f"⚠️ History file not found: `{history_file}`")
-            selected_data = data[data['date'].dt.date == selected_date]
-        if not selected_data.empty:
-            col1, col2 = st.columns(2)
-            with col1:
-                st.info(f"**Cases on {selected_date}:** {selected_data['cases'].values[0]:,}")
-            with col2:
-                st.info(f"**Deaths on {selected_date}:** {selected_data['deaths'].values[0]:,}")
+        st.info("History content will be added by research team.")
+
 with tab2:
     st.header("🤖 AI Chatbot Assistant")
     st.markdown("Ask me anything about diseases and countries!")
@@ -166,21 +174,8 @@ with tab3:
     st.header("📰 Real-time Disease News")
     st.markdown("Latest news about selected disease")
     
-    try:
-        feed_url = f"https://news.google.com/rss/search?q={disease.replace(' ', '+')}+{country.replace(' ', '+')}"
-        feed = feedparser.parse(feed_url)
-        
-        if feed.entries:
-            for i, entry in enumerate(feed.entries[:5]):
-                st.subheader(f"📌 {entry.title}")
-                st.write(f"*{entry.published}*")
-                st.write(entry.summary if hasattr(entry, 'summary') else "")
-                st.markdown(f"[Read more]({entry.link})")
-                st.markdown("---")
-        else:
-            st.info("No recent news found. Check back later!")
-    except Exception as e:
-        st.warning("News feed temporarily unavailable. Please check your internet connection.")
+    st.info("News feed feature - requires internet connection and feedparser library")
+    st.markdown(f"Search Google News for: [{disease} {country}](https://news.google.com/search?q={disease.replace(' ', '+')}+{country.replace(' ', '+')})")
 
 with tab4:
     st.header("⚠️ Disease Risk Calculator")
@@ -237,41 +232,9 @@ with tab4:
 
 with tab5:
     st.header("🎤 Voice Search")
-    st.markdown("Speak to search for disease data")
+    st.markdown("Voice search feature - requires microphone access and SpeechRecognition library")
     
-    col1, col2 = st.columns([3, 1])
-    
-    with col1:
-        st.info("Click the button below and say something like: 'Show COVID data for India'")
-    
-    with col2:
-        if st.button("🎤 Start Recording"):
-            with st.spinner("Listening..."):
-                try:
-                    r = sr.Recognizer()
-                    with sr.Microphone() as source:
-                        st.write("Speak now...")
-                        audio = r.listen(source, timeout=5)
-                        text = r.recognize_google(audio)
-                        st.success(f"You said: {text}")
-                        
-                        for c in COUNTRIES:
-                            if c.lower() in text.lower():
-                                country = c
-                                break
-                        
-                        for d in DISEASES:
-                            if d.lower() in text.lower():
-                                disease = d
-                                break
-                        
-                        st.experimental_rerun()
-                except sr.UnknownValueError:
-                    st.error("Sorry, I couldn't understand. Please try again.")
-                except sr.RequestError:
-                    st.error("Speech recognition service unavailable.")
-                except Exception as e:
-                    st.error("Microphone not available or permission denied.")
+    st.info("This feature requires additional setup. For now, use the manual search below.")
     
     st.markdown("### Manual Search")
     voice_country = st.selectbox("Select Country", COUNTRIES, key="voice_country")
@@ -279,31 +242,7 @@ with tab5:
     if st.button("Search"):
         country = voice_country
         disease = voice_disease
-        st.experimental_rerun()
-
-st.markdown("---")
-st.markdown("*Data from 2000 to present | Updated daily | Powered by AIdate")
-        
-        st.subheader("📈 Predictions (Next 30 Days)")
-        st.info("Prediction model will be implemented here")
-        
-    except Exception as e:
-        st.error(f"Error loading data: {str(e)}")
-else:
-    st.warning(f"⚠️ Data file not found: `{data_file}`")
-    st.info("Please add the dataset file to continue.")
-
-st.subheader("📖 Disease History")
-if os.path.exists(history_file):
-    try:
-        with open(history_file, 'r', encoding='utf-8') as f:
-            history_text = f.read()
-        st.write(history_text)
-    except Exception as e:
-        st.error(f"Error loading history: {str(e)}")
-else:
-    st.warning(f"⚠️ History file not found: `{history_file}`")
-    st.info("History content will be added by research team.")
+        st.rerun()
 
 st.sidebar.markdown("---")
 st.sidebar.header("Disease Information")
@@ -320,4 +259,4 @@ else:
     st.sidebar.info("Disease information coming soon")
 
 st.markdown("---")
-st.markdown("*Data from 2000 to present | Updated daily*")
+st.markdown("*Data from 2000 to present | Updated daily | Powered by AI*")
