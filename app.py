@@ -4,6 +4,22 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 import os
+try:
+    from gtts import gTTS
+    from io import BytesIO
+    HAS_TTS = True
+except ImportError:
+    HAS_TTS = False
+try:
+    import feedparser
+    HAS_NEWS = True
+except ImportError:
+    HAS_NEWS = False
+try:
+    import speech_recognition as sr
+    HAS_VOICE = True
+except ImportError:
+    HAS_VOICE = False
 
 st.set_page_config(
     page_title="Disease Tracker Pro",
@@ -132,7 +148,20 @@ with tab1:
         try:
             with open(history_file, 'r', encoding='utf-8') as f:
                 history_text = f.read()
-            st.write(history_text)
+            
+            col1, col2 = st.columns([5, 1])
+            with col1:
+                st.write(history_text)
+            with col2:
+                if HAS_TTS and st.button("🔊 Listen", key="tts_btn"):
+                    try:
+                        tts = gTTS(text=history_text, lang='en', slow=False)
+                        audio_bytes = BytesIO()
+                        tts.write_to_fp(audio_bytes)
+                        audio_bytes.seek(0)
+                        st.audio(audio_bytes, format='audio/mp3')
+                    except Exception as e:
+                        st.error(f"TTS error: {str(e)}")
         except Exception as e:
             st.error(f"Error loading history: {str(e)}")
     else:
@@ -172,10 +201,30 @@ with tab2:
 
 with tab3:
     st.header("📰 Real-time Disease News")
-    st.markdown("Latest news about selected disease")
+    st.markdown(f"Latest news about {disease} in {country}")
     
-    st.info("News feed feature - requires internet connection and feedparser library")
-    st.markdown(f"Search Google News for: [{disease} {country}](https://news.google.com/search?q={disease.replace(' ', '+')}+{country.replace(' ', '+')})")
+    if HAS_NEWS:
+        try:
+            feed_url = f"https://news.google.com/rss/search?q={disease.replace(' ', '+')}+{country.replace(' ', '+')}"
+            feed = feedparser.parse(feed_url)
+            
+            if feed.entries:
+                for i, entry in enumerate(feed.entries[:5]):
+                    st.subheader(f"📌 {entry.title}")
+                    if hasattr(entry, 'published'):
+                        st.caption(entry.published)
+                    if hasattr(entry, 'summary'):
+                        st.write(entry.summary)
+                    st.markdown(f"[Read more]({entry.link})")
+                    st.markdown("---")
+            else:
+                st.info("No recent news found. Try a different search.")
+                st.markdown(f"[Search Google News manually]({feed_url})")
+        except Exception as e:
+            st.warning(f"Unable to fetch news. [Search manually](https://news.google.com/search?q={disease.replace(' ', '+')}+{country.replace(' ', '+')})")
+    else:
+        st.info("News feed requires feedparser library")
+        st.markdown(f"[Search Google News]({f'https://news.google.com/search?q={disease.replace(' ', '+') }+{country.replace(' ', '+')}'})") 
 
 with tab4:
     st.header("⚠️ Disease Risk Calculator")
@@ -232,16 +281,39 @@ with tab4:
 
 with tab5:
     st.header("🎤 Voice Search")
-    st.markdown("Voice search feature - requires microphone access and SpeechRecognition library")
     
-    st.info("This feature requires additional setup. For now, use the manual search below.")
+    if HAS_VOICE:
+        st.markdown("Speak to search for disease data")
+        st.info("Note: Voice recording works locally but may not work on Streamlit Cloud")
+        
+        if st.button("🎤 Start Recording", key="voice_btn"):
+            try:
+                r = sr.Recognizer()
+                with sr.Microphone() as source:
+                    with st.spinner("Listening..."):
+                        audio = r.listen(source, timeout=5)
+                        text = r.recognize_google(audio)
+                        st.success(f"You said: {text}")
+                        
+                        for c in COUNTRIES:
+                            if c.lower() in text.lower():
+                                st.info(f"Found country: {c}")
+                                break
+                        for d in DISEASES:
+                            if d.lower().replace("/","").replace("-","") in text.lower().replace("/","").replace("-",""):
+                                st.info(f"Found disease: {d}")
+                                break
+            except Exception as e:
+                st.error(f"Voice recognition not available: {str(e)}")
+    else:
+        st.info("Voice search requires microphone access (works locally only)")
     
     st.markdown("### Manual Search")
     voice_country = st.selectbox("Select Country", COUNTRIES, key="voice_country")
     voice_disease = st.selectbox("Select Disease", DISEASES, key="voice_disease")
     if st.button("Search"):
-        country = voice_country
-        disease = voice_disease
+        st.session_state.country = voice_country
+        st.session_state.disease = voice_disease
         st.rerun()
 
 st.sidebar.markdown("---")
