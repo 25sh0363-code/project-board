@@ -1,0 +1,27 @@
+# HIV/AIDS - Complete Information
+
+## What is HIV/AIDS?
+HIV (Human Immunodeficiency Virus) is a virus that attacks the body's immune system. If untreated, it can lead to AIDS (Acquired Immunodeficiency Syndrome), the most severe phase of HIV infection.
+
+## Symptoms
+- Early stage: Flu-like symptoms, fever, fatigue
+- Later stages: Rapid weight loss, recurring fever, extreme fatigue
+- Advanced stage: Opportunistic infections, certain cancers
+
+## Transmission
+- Unprotected sexual contact
+- Sharing needles or syringes
+- Mother to child during pregnancy, childbirth, or breastfeeding
+- Blood transfusions (now rare due to screening)
+
+## Prevention
+- Use protection during sexual activity
+- Never share needles
+- Pre-exposure prophylaxis (PrEP) for high-risk individuals
+- Regular testing and early treatment
+
+## Treatment
+- Antiretroviral therapy (ART)
+- Regular monitoring and medication adherence
+- Treatment significantly extends life expectancy
+- Modern treatments allow people with HIV to live normal lifespans

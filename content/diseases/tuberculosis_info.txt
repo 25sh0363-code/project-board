@@ -1,0 +1,27 @@
+# Tuberculosis - Complete Information
+
+## What is Tuberculosis?
+Tuberculosis (TB) is a bacterial infection that primarily affects the lungs but can spread to other organs. It's caused by Mycobacterium tuberculosis bacteria.
+
+## Symptoms
+- Persistent cough lasting 3+ weeks
+- Coughing up blood or mucus
+- Chest pain and pain with breathing
+- Fever, night sweats, and weight loss
+
+## Transmission
+- Airborne spread through coughing, sneezing, or speaking
+- Prolonged exposure increases risk
+- Not spread through touching or sharing food
+
+## Prevention
+- BCG vaccination in high-risk areas
+- Prompt treatment of active cases
+- Proper ventilation in living spaces
+- Wearing masks in high-risk settings
+
+## Treatment
+- 6-9 month course of antibiotics
+- Combination of multiple drugs
+- Directly observed therapy (DOT)
+- Drug-resistant TB requires longer treatment

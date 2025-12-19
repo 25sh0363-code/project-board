@@ -1,0 +1,30 @@
+# COVID-19 - Complete Information
+
+## What is COVID-19?
+COVID-19 is a respiratory illness caused by the SARS-CoV-2 virus. First identified in 2019, it led to a global pandemic affecting millions worldwide.
+
+## Symptoms
+- Fever, cough, and difficulty breathing
+- Loss of taste or smell
+- Fatigue and body aches
+- Sore throat and headache
+- Severe cases: pneumonia, respiratory failure
+
+## Transmission
+- Airborne through respiratory droplets
+- Close contact with infected persons
+- Touching contaminated surfaces then face
+- Can spread before symptoms appear
+
+## Prevention
+- Vaccination (primary and booster doses)
+- Wearing masks in crowded areas
+- Hand hygiene and sanitization
+- Social distancing when cases are high
+- Adequate ventilation
+
+## Treatment
+- Most cases: rest, fluids, symptom management
+- Severe cases: hospitalization, oxygen therapy
+- Antiviral medications for high-risk patients
+- Continuous monitoring of oxygen levels

@@ -1,0 +1,26 @@
+# Diabetes - Complete Information
+
+## What is Diabetes?
+Diabetes is a chronic condition that affects how your body processes blood sugar (glucose). Type 2 diabetes is the most common form, where the body becomes resistant to insulin or doesn't produce enough.
+
+## Symptoms
+- Increased thirst and frequent urination
+- Extreme hunger and unexplained weight loss
+- Fatigue and blurred vision
+- Slow-healing sores and frequent infections
+
+## Transmission
+- Not contagious - develops due to genetic and lifestyle factors
+- Risk factors include obesity, family history, and sedentary lifestyle
+
+## Prevention
+- Maintain healthy weight
+- Regular physical activity
+- Balanced diet with limited processed sugars
+- Regular health screenings
+
+## Treatment
+- Blood sugar monitoring
+- Medications or insulin therapy
+- Healthy eating plan
+- Regular exercise and weight management
