@@ -1,4 +1,4 @@
-import streamlit as st
+﻿import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -65,7 +65,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("🏥 Global Disease Tracker Pro")
-st.markdown("### Track disease cases across 10 countries | Powered by AI")
+st.markdown("### Track disease cases across 10 countries")
 st.markdown("*Last Updated: December 2025*")
 st.markdown("---")
 
@@ -80,13 +80,16 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 st.sidebar.header("Select Parameters")
 
 COUNTRIES = [
-    "India", "America", "Canada", "China", "Russia",
-    "Australia", "South Korea", "France", "Germany", "Japan"
+    "India", "America", "Canada", 
+    "China", "Russia",
+    "Australia", 
+    "South Korea", "France", "Germany", "Japan"
 ]
 
 DISEASES = [
     "HIV/AIDS", "Diabetes", "Tuberculosis",
-    "COVID-19", "Colon Cancer", "Alzheimer's"
+    "COVID-19", "Colon Cancer", 
+    "Alzheimer's"
 ]
 
 country = st.sidebar.selectbox("Select Country", COUNTRIES)
@@ -161,7 +164,6 @@ if os.path.exists(disease_info_file):
                 st.markdown(full_info[:500] + "..." if len(full_info) > 500 else full_info)
         except:
             pass
-
 data_available = os.path.exists(data_file)
 if data_available:
     data = pd.read_csv(data_file)
@@ -239,7 +241,7 @@ with tab1:
                                 line_shape='linear')
             fig_deaths.update_traces(line_color='red')
             fig_deaths.update_layout(height=400)
-            st.plotly_chart(fig_deaths, width='stretch')
+            st.plotly_chart(fig_deaths, use_container_width=True)
             
             st.subheader("🔍 Daily Case Finder")
             selected_date = st.date_input("Select a date to view cases", 
@@ -269,14 +271,12 @@ with tab1:
             with open(history_file, 'r', encoding='utf-8') as f:
                 history_text = f.read()
             
-            # Extract first 400 characters for overview
-            overview = history_text[:400] + "..." if len(history_text) > 400 else history_text
+            text_preview = history_text[:400] + "..." if len(history_text) > 400 else history_text
             
-            # Create interactive cards
             col1, col2 = st.columns(2)
             with col1:
                 with st.expander("📜 Historical Overview", expanded=True):
-                    st.write(overview)
+                    st.write(text_preview)
             
             with col2:
                 with st.expander("📊 Key Statistics", expanded=True):
@@ -284,7 +284,7 @@ with tab1:
                     st.metric("Total Deaths", f"{data['deaths'].sum():,}")
                     st.metric("Data Period", f"{data['date'].min().year} - {data['date'].max().year}")
             
-            # Full content in expandable section
+            
             with st.expander("📖 Read Full History"):
                 st.write(history_text)
                 if HAS_TTS:
@@ -307,6 +307,7 @@ with tab1:
             st.metric("💀 Total Deaths", f"{data['deaths'].sum():,}")
         with col3:
             st.metric("📅 Data Range", f"{data['date'].min().year} - {data['date'].max().year}")
+
 def predict_future_cases(data, days_ahead=90):
     try:
         data = data.copy()
@@ -319,7 +320,6 @@ def predict_future_cases(data, days_ahead=90):
         
         y_log = np.log1p(y)
         
-        # Use higher degree polynomial for better fit
         poly = PolynomialFeatures(degree=3)
         X_poly = poly.fit_transform(X)
         
@@ -334,7 +334,6 @@ def predict_future_cases(data, days_ahead=90):
         predictions = np.expm1(predictions_log)
         predictions = np.maximum(predictions, 0)
         
-        # Apply smoothing to reduce noise
         from scipy.ndimage import gaussian_filter1d
         predictions = gaussian_filter1d(predictions, sigma=2)
         
@@ -421,7 +420,6 @@ def query_csv_data(disease, country):
         return None
 
 def generate_response(user_question, current_disease, current_country):
-    
     all_diseases = ["HIV/AIDS", "Diabetes", "Tuberculosis", "COVID-19", "Colon Cancer", "Alzheimer's"]
     all_countries = ["India", "America", "Canada", "China", "Russia", "Australia", "South Korea", "France", "Germany", "Japan"]
     
@@ -466,6 +464,7 @@ def generate_response(user_question, current_disease, current_country):
 def use_fallback_chatbot(user_question, current_disease, current_country, detected_disease, detected_country, stats, disease_info):
     question_lower = user_question.lower()
     
+    # Check for greetings - pretty straightforward
     if any(w in question_lower for w in ['hi', 'hello', 'hey', 'hola']):
         response = f"""👋 **Hello! I'm your AI health assistant.**
 
@@ -729,8 +728,8 @@ with tab2:
         st.rerun()
 
 with tab3:
-    st.header("� Predictions & Advanced Analytics")
-    st.markdown("### ML-powered forecasting and trend analysis")
+    st.header("🔮 Predictions & Advanced Analytics")
+    st.markdown("### Forecasting and trend analysis")
     
     if data_available:
         st.subheader("📈 Advanced Statistics")
@@ -959,7 +958,7 @@ Peak Cases: {stats_data['peak_cases']:,} on {stats_data['peak_date']}
         st.warning("No data loaded. Select a disease and country from the sidebar.")
 
 with tab4:
-    st.header("�📰 Real-time Disease News")
+    st.header("📰 Real-time Disease News")
     st.markdown(f"Latest news about {disease} in {country}")
     
     if HAS_NEWS:
@@ -1054,6 +1053,3 @@ if os.path.exists(disease_info_file):
         st.sidebar.error(f"Error loading disease info: {str(e)}")
 else:
     st.sidebar.info("Disease information coming soon")
-
-st.markdown("---")
-st.markdown("*Data from 2000 to present | Updated daily | Powered by AI*")
