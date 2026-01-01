@@ -1,17 +1,40 @@
-# HIV/AIDS in India
+HIV/AIDS in India — Knowledge Base
+1. Overview
+HIV attacks immune system; AIDS is advanced stage. India has third-largest HIV burden globally but prevalence declining.
 
-HIV/AIDS has been a significant public health concern in India since the early 2000s. The disease patterns have evolved considerably over the past two decades.
+2. Historical Context
+Epidemic recognized 1980s. Initially spread through sex workers, truck drivers, injecting drug users. Strong National AIDS Control Programme launched. Epidemic stabilized and declining.
 
-## Historical Overview
-In the year 2000, India reported its initial cases of HIV/AIDS, marking the beginning of extensive monitoring and public health interventions. The government responded by establishing specialized treatment centers and launching awareness campaigns.
+3. Transmission
+Heterosexual contact (primary), needle sharing, mother-to-child, blood transfusion (now rare)
 
-## Major Developments
-Between 2005 and 2010, India experienced fluctuating case numbers due to various factors including improved diagnostic capabilities, public health initiatives, and changing demographic patterns. Healthcare infrastructure was significantly enhanced during this period.
+4. Diagnosis/Treatment
+Free testing and ART through government programs. Treatment coverage expanded significantly. Prevention of mother-to-child transmission programs.
 
-## Recent Trends
-From 2015 onwards, India has implemented advanced treatment protocols and prevention strategies. The integration of technology in healthcare delivery has improved disease tracking and patient outcomes. Modern medical interventions have shown promising results in managing HIV/AIDS.
+5. Current Trends
+Declining new infections and AIDS deaths
+Regional variations (high in some states)
+Key populations: sex workers, MSM, people who inject drugs, truckers
+Increasing treatment coverage
+Mother-to-child transmission reduced
 
-## Current Status
-As of 2025, India continues to monitor and manage HIV/AIDS cases through comprehensive healthcare programs. Ongoing research and international collaboration contribute to better understanding and treatment of this condition.
+6. Projections
+Continued decline
+Elimination goals
+Expanding services
 
-Data Source: National Health Database and WHO estimates.
+7. Challenges
+Stigma and discrimination
+Reaching marginalized populations
+Rural access
+Treatment adherence
+Linkage to care
+
+8. Prevention
+Condom promotion, needle exchange (limited), testing, education, treatment as prevention, targeted interventions for key populations
+
+9. Public Health
+National AIDS Control Programme, free testing and treatment, targeted interventions, community mobilization, research
+
+10. Summary
+India achieved remarkable HIV response success through National AIDS Control Programme providing free testing-treatment, targeted interventions, community mobilization resulting in declining epidemic while addressing remaining challenges of stigma and access.

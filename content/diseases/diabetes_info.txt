@@ -1,26 +1,311 @@
-# Diabetes - Complete Information
+# Diabetes Mellitus - Comprehensive Medical Information
 
-## What is Diabetes?
-Diabetes is a chronic condition that affects how your body processes blood sugar (glucose). Type 2 diabetes is the most common form, where the body becomes resistant to insulin or doesn't produce enough.
+## Overview
+Diabetes mellitus is a chronic metabolic disorder characterized by persistent hyperglycemia (elevated blood glucose) resulting from defects in insulin secretion, insulin action, or both. It affects over 537 million adults worldwide (2021), with projections reaching 783 million by 2045. Diabetes is a leading cause of cardiovascular disease, blindness, kidney failure, and lower limb amputation, making it one of the most significant public health challenges of the 21st century.
 
-## Symptoms
-- Increased thirst and frequent urination
-- Extreme hunger and unexplained weight loss
-- Fatigue and blurred vision
-- Slow-healing sores and frequent infections
+## Classification and Types
+**Type 1 Diabetes (T1D) - 5-10% of cases:**
+- Autoimmune destruction of pancreatic beta cells
+- Absolute insulin deficiency
+- Typically diagnosed in children/adolescents (can occur at any age)
+- Requires lifelong insulin therapy
+- Associated with other autoimmune conditions
+- Genetic predisposition (HLA-DR3, HLA-DR4)
+- Environmental triggers hypothesized (viral infections)
 
-## Transmission
-- Not contagious - develops due to genetic and lifestyle factors
-- Risk factors include obesity, family history, and sedentary lifestyle
+**Type 2 Diabetes (T2D) - 90-95% of cases:**
+- Insulin resistance and relative insulin deficiency
+- Progressive beta-cell dysfunction
+- Strong association with obesity, sedentary lifestyle, age
+- Typically develops in adults (increasing in youth)
+- Polygenic inheritance with strong familial clustering
+- Preventable through lifestyle modifications
+- Initially managed with lifestyle changes, progressing to oral medications/insulin
 
-## Prevention
-- Maintain healthy weight
+**Gestational Diabetes Mellitus (GDM):**
+- Glucose intolerance first recognized during pregnancy
+- Affects 2-10% of pregnancies
+- Usually resolves postpartum but increases future T2D risk (50% within 10 years)
+- Risk factors: obesity, family history, advanced maternal age, ethnicity
+- Requires monitoring and management to prevent maternal/fetal complications
+
+**Other Specific Types:**
+- Maturity-Onset Diabetes of the Young (MODY): Monogenic forms
+- Secondary diabetes: Medications (steroids), pancreatic disease, endocrine disorders
+- Cystic fibrosis-related diabetes
+- Latent Autoimmune Diabetes in Adults (LADA)
+
+## Pathophysiology
+**Type 1 Diabetes:**
+- Autoimmune attack on pancreatic beta cells by T-lymphocytes
+- Autoantibodies: Anti-GAD, anti-IA-2, anti-insulin
+- Progressive beta-cell loss leading to absolute insulin deficiency
+- Ketoacidosis risk without exogenous insulin
+- Honeymoon period with residual beta-cell function
+
+**Type 2 Diabetes:**
+- Insulin resistance in muscle, liver, adipose tissue
+- Impaired glucose uptake and excessive hepatic glucose production
+- Compensatory hyperinsulinemia by beta cells
+- Progressive beta-cell failure and dysfunction
+- Ectopic lipid accumulation and lipotoxicity
+- Chronic inflammation and oxidative stress
+- Incretin hormone defects (GLP-1, GIP)
+- Glucagon hypersecretion
+
+**Metabolic Consequences:**
+- Hyperglycemia: Impaired glucose utilization
+- Dyslipidemia: Elevated triglycerides, low HDL, small dense LDL
+- Protein glycation: Advanced glycation end products (AGEs)
+- Endothelial dysfunction and accelerated atherosclerosis
+- Altered mitochondrial function
+
+## Clinical Presentation and Symptoms
+**Classic Symptoms (Type 1, often acute onset):**
+- Polyuria (excessive urination) due to glucosuria
+- Polydipsia (excessive thirst) from dehydration
+- Polyphagia (excessive hunger) despite eating
+- Unintentional weight loss (muscle and fat breakdown)
+- Fatigue and weakness
+- Blurred vision (osmotic lens changes)
+- Ketoacidosis presentation: Nausea, vomiting, abdominal pain, Kussmaul breathing, fruity breath odor, altered consciousness
+
+**Type 2 Diabetes (often asymptomatic, gradual onset):**
+- May have no symptoms for years (diagnosed incidentally)
+- Subtle symptoms: fatigue, frequent infections
+- Slow wound healing
+- Recurrent skin/urinary/genital infections
+- Acanthosis nigricans (dark skin patches in body folds)
+- Peripheral neuropathy symptoms (tingling, numbness)
+- Erectile dysfunction in men
+
+**Hypoglycemia (Low Blood Sugar):**
+- Tremors, sweating, palpitations
+- Confusion, irritability, difficulty concentrating
+- Hunger, dizziness, weakness
+- Severe: Seizures, loss of consciousness
+- Occurs with insulin/sulfonylurea use, missed meals, excessive exercise
+
+## Diagnosis Criteria
+**Fasting Plasma Glucose (FPG):**
+- Normal: <100 mg/dL (5.6 mmol/L)
+- Prediabetes: 100-125 mg/dL (5.6-6.9 mmol/L)
+- Diabetes: ≥126 mg/dL (7.0 mmol/L) on two occasions
+
+**Oral Glucose Tolerance Test (OGTT) - 2-hour value:**
+- Normal: <140 mg/dL (7.8 mmol/L)
+- Prediabetes: 140-199 mg/dL (7.8-11.0 mmol/L)
+- Diabetes: ≥200 mg/dL (11.1 mmol/L)
+
+**Hemoglobin A1C (HbA1c):**
+- Normal: <5.7%
+- Prediabetes: 5.7-6.4%
+- Diabetes: ≥6.5%
+- Reflects average glucose over 2-3 months
+
+**Random Plasma Glucose:**
+- Diabetes: ≥200 mg/dL (11.1 mmol/L) with classic symptoms
+
+**Screening Recommendations:**
+- All adults ≥35 years (or ≥45 years per some guidelines)
+- Earlier screening if overweight/obese with additional risk factors
+- Every 1-3 years if prediabetes
+- All pregnant women at 24-28 weeks (GDM screening)
+
+## Acute Complications
+**Diabetic Ketoacidosis (DKA):**
+- Primarily Type 1, but can occur in Type 2
+- Severe insulin deficiency leading to ketone production
+- Hyperglycemia (>250 mg/dL), acidosis (pH <7.3), ketones
+- Symptoms: Nausea, vomiting, abdominal pain, altered mental status
+- Treatment: IV fluids, insulin infusion, electrolyte replacement
+- Life-threatening if untreated
+
+**Hyperosmolar Hyperglycemic State (HHS):**
+- Primarily Type 2 diabetes
+- Severe hyperglycemia (>600 mg/dL) without significant ketosis
+- Extreme dehydration, hyperosmolality
+- Altered mental status, seizures, coma
+- Higher mortality than DKA
+- Treatment: Aggressive fluid resuscitation, insulin, electrolytes
+
+**Hypoglycemia:**
+- Blood glucose <70 mg/dL
+- Caused by excess insulin, inadequate food, exercise
+- Immediate treatment: Fast-acting carbohydrates (glucose tablets, juice)
+- Severe: Glucagon injection or IV dextrose
+
+## Chronic Complications
+**Microvascular Complications:**
+
+*Diabetic Retinopathy:*
+- Leading cause of blindness in working-age adults
+- Non-proliferative (microaneurysms, hemorrhages) → Proliferative (neovascularization)
+- Diabetic macular edema
+- Prevention: Glycemic control, annual eye exams
+- Treatment: Laser photocoagulation, anti-VEGF injections, vitrectomy
+
+*Diabetic Nephropathy:*
+- Leading cause of end-stage renal disease
+- Progression: Hyperfiltration → Microalbuminuria → Proteinuria → Declining GFR → ESRD
+- Monitoring: Annual urine albumin-to-creatinine ratio, serum creatinine/eGFR
+- Prevention: Glycemic control, blood pressure control (<130/80), ACE-I/ARB
+- Treatment: SGLT2 inhibitors, GLP-1 agonists, mineralocorticoid receptor antagonists
+
+*Diabetic Neuropathy:*
+- Affects 50% of people with diabetes
+- Peripheral neuropathy: Symmetric distal sensory loss (glove-stocking), pain, foot ulcers
+- Autonomic neuropathy: Gastroparesis, cardiac autonomic neuropathy, erectile dysfunction, bladder dysfunction
+- Prevention: Tight glycemic control
+- Treatment: Pain management (gabapentin, pregabalin, duloxetine), foot care
+
+**Macrovascular Complications:**
+
+*Cardiovascular Disease:*
+- 2-4 fold increased risk of heart attack, stroke
+- Accelerated atherosclerosis
+- Often silent ischemia
+- Prevention: Statin therapy, aspirin (if indicated), blood pressure control, smoking cessation
+- ASCVD risk assessment
+
+*Cerebrovascular Disease:*
+- Increased stroke risk
+- Cognitive decline and dementia
+
+*Peripheral Arterial Disease:*
+- Claudication, critical limb ischemia
+- Increased amputation risk
+
+**Diabetic Foot:**
+- Combination of neuropathy, vascular disease, infection
+- Leading cause of non-traumatic amputations
+- Prevention: Daily foot inspection, proper footwear, podiatry care
+- Treatment: Wound care, offloading, antibiotics, revascularization
+
+## Treatment and Management
+**Lifestyle Interventions (Foundation for all types):**
+- Medical nutrition therapy: Carbohydrate counting, low glycemic index foods, Mediterranean diet
+- Physical activity: 150 min/week moderate aerobic + 2-3 days resistance training
+- Weight loss: 5-10% reduction improves glycemic control significantly
+- Smoking cessation
+- Stress management
+- Adequate sleep
+
+**Type 1 Diabetes Management:**
+- **Insulin therapy (essential):**
+  - Basal-bolus regimen: Long-acting (glargine, detemir, degludec) + rapid-acting (lispro, aspart, glulisine)
+  - Insulin pump therapy (continuous subcutaneous insulin infusion)
+  - Hybrid closed-loop systems (artificial pancreas)
+- **Continuous glucose monitoring (CGM):** Real-time glucose tracking
+- **Self-monitoring blood glucose (SMBG):** 4-10 times daily
+- **Carbohydrate counting:** Matching insulin to food intake
+- **Exercise management:** Adjust insulin/carbs to prevent hypo/hyperglycemia
+- **Education:** Comprehensive diabetes self-management education
+
+**Type 2 Diabetes Management:**
+
+*First-line: Metformin*
+- Reduces hepatic glucose production
+- Weight neutral, cardiovascular benefits
+- Contraindications: eGFR <30, lactic acidosis risk
+
+*Additional Agents (individualized based on ASCVD, heart failure, CKD, weight):*
+
+**GLP-1 Receptor Agonists:** Semaglutide, dulaglutide, liraglutide
+- Enhance insulin secretion, suppress glucagon, slow gastric emptying
+- Weight loss (5-15%)
+- Cardiovascular and renal benefits
+- Injectable (weekly or daily)
+
+**SGLT2 Inhibitors:** Empagliflozin, dapagliflozin, canagliflozin
+- Inhibit renal glucose reabsorption
+- Modest weight loss
+- Cardiovascular, heart failure, and renal benefits
+- Risk: Genital infections, DKA (rare)
+
+**DPP-4 Inhibitors:** Sitagliptin, linagliptin
+- Enhance incretin activity
+- Weight neutral
+- Well tolerated
+
+**Sulfonylureas:** Glipizide, glyburide
+- Stimulate insulin secretion
+- Hypoglycemia risk, weight gain
+- Inexpensive
+
+**Thiazolidinediones:** Pioglitazone
+- Improve insulin sensitivity
+- Weight gain, fluid retention, bone fractures
+
+**Insulin Therapy for Type 2:**
+- When oral agents insufficient
+- Basal insulin (glargine, detemir, NPH) ± prandial insulin
+
+*Treatment Targets (individualized):*
+- HbA1c: <7% general, <6.5% if achieved safely, <8% if elderly/comorbidities
+- Fasting glucose: 80-130 mg/dL
+- Postprandial glucose: <180 mg/dL
+
+**Monitoring:**
+- HbA1c every 3 months (if not at target) or 6 months (at target)
+- Self-monitoring blood glucose (frequency varies)
+- Annual lipid panel, liver function, renal function, urinalysis
+- Annual comprehensive foot exam
+- Annual dilated eye exam
+- Blood pressure monitoring
+
+## Prevention and Risk Reduction
+**Prediabetes Intervention:**
+- Lifestyle intervention: 7% weight loss, 150 min/week activity reduces T2D risk by 58%
+- Metformin: Reduces risk by 31%, considered for high-risk individuals
+- Regular monitoring and follow-up
+
+**Primary Prevention:**
+- Maintain healthy weight (BMI 18.5-24.9)
 - Regular physical activity
-- Balanced diet with limited processed sugars
-- Regular health screenings
+- Healthy diet: Whole grains, fruits, vegetables, lean proteins, limit processed foods/sugars
+- Avoid smoking
+- Moderate alcohol consumption
 
-## Treatment
-- Blood sugar monitoring
-- Medications or insulin therapy
-- Healthy eating plan
-- Regular exercise and weight management
+**Gestational Diabetes Prevention:**
+- Pre-pregnancy weight optimization
+- Physical activity during pregnancy
+- Healthy diet
+
+## Special Populations
+**Pregnancy:**
+- Pre-conception planning: HbA1c <6.5%, folic acid
+- Tight glycemic control: Fasting <95 mg/dL, 1-hr postprandial <140 mg/dL
+- Insulin preferred over oral agents
+- Increased monitoring and complications risk
+
+**Children and Adolescents:**
+- T1D management with family involvement
+- Increasing T2D in youth due to obesity epidemic
+- School-based management plans
+- Transition to adult care planning
+
+**Elderly:**
+- Individualized targets (avoid hypoglycemia)
+- Simplify regimens
+- Assess cognitive function and self-care ability
+- Address polypharmacy
+
+## Emerging Therapies and Research
+- Dual GLP-1/GIP agonists (tirzepatide): Superior weight loss and glucose control
+- Stem cell therapy for beta-cell regeneration
+- Immunotherapy for T1D prevention
+- Artificial pancreas advancements
+- Gene therapy approaches
+- Novel insulin formulations (ultra-rapid, weekly)
+
+## Global Burden and Statistics
+- **Prevalence:** 537 million adults (2021), projected 783 million by 2045
+- **Mortality:** 6.7 million deaths annually (2021)
+- **Economic impact:** $966 billion in healthcare costs (2021)
+- **Undiagnosed:** ~50% of people with diabetes unaware
+- **Prediabetes:** 541 million adults globally
+- **Regional variation:** Highest prevalence in Middle East, North Africa, Western Pacific
+
+## Key Takeaways
+Diabetes mellitus is a complex, chronic disease requiring comprehensive management addressing glycemic control, cardiovascular risk reduction, and complication prevention. Early diagnosis, patient education, multidisciplinary care, and advances in medications (GLP-1 agonists, SGLT2 inhibitors) and technology (CGM, insulin pumps) have transformed diabetes care. Lifestyle modification remains foundational, and preventing type 2 diabetes through public health initiatives targeting obesity and sedentary behavior is critical for reducing the global burden of this disease.

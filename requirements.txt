@@ -3,5 +3,6 @@ pandas
 plotly
 numpy
 gTTS
-SpeechRecognition
 feedparser
+scikit-learn
+scipy

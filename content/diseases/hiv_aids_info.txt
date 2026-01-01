@@ -1,27 +1,405 @@
-# HIV/AIDS - Complete Information
+# HIV/AIDS - Comprehensive Medical Information
 
-## What is HIV/AIDS?
-HIV (Human Immunodeficiency Virus) is a virus that attacks the body's immune system. If untreated, it can lead to AIDS (Acquired Immunodeficiency Syndrome), the most severe phase of HIV infection.
+## Overview
+Human Immunodeficiency Virus (HIV) is a retrovirus that attacks and progressively destroys the immune system, specifically CD4+ T lymphocytes (helper T cells), which are crucial for coordinating immune responses. If untreated, HIV leads to Acquired Immunodeficiency Syndrome (AIDS), the most advanced stage of infection characterized by severe immunodeficiency and opportunistic infections or cancers. Since its identification in 1981, HIV/AIDS has claimed over 40 million lives globally. However, with modern antiretroviral therapy (ART), HIV is now a manageable chronic condition, allowing people living with HIV to achieve normal life expectancy and prevent transmission.
 
-## Symptoms
-- Early stage: Flu-like symptoms, fever, fatigue
-- Later stages: Rapid weight loss, recurring fever, extreme fatigue
-- Advanced stage: Opportunistic infections, certain cancers
+## Virology and Pathogenesis
+**Virus Characteristics:**
+- **Family:** Retroviridae, Genus Lentivirus
+- **Types:** HIV-1 (pandemic, more virulent, global) and HIV-2 (West Africa, less pathogenic, slower progression)
+- **Structure:** Enveloped virus with RNA genome, reverse transcriptase enzyme
+- **Surface proteins:** gp120 and gp41 (attachment and fusion)
+- **High mutation rate:** Enables drug resistance, immune escape, vaccine challenges
+
+**HIV Life Cycle:**
+1. **Attachment:** gp120 binds CD4 receptor + coreceptor (CCR5 or CXCR4) on T cells, macrophages, dendritic cells
+2. **Fusion:** gp41 mediates membrane fusion, viral entry
+3. **Reverse Transcription:** Viral RNA → DNA via reverse transcriptase enzyme
+4. **Integration:** Viral DNA integrates into host chromosome via integrase (provirus)
+5. **Transcription:** Host cell machinery produces viral RNA and proteins
+6. **Assembly:** Viral components assemble at cell membrane
+7. **Budding:** New virions bud from cell, matured by protease cleavage
+8. **Maturation:** Infectious virions ready to infect new cells
+
+**Immune System Destruction:**
+- **CD4+ T cell depletion:** Direct viral killing, immune-mediated destruction, chronic activation, impaired production
+- **CD4 count decline:** Normal 500-1500 cells/µL → <200 cells/µL (AIDS threshold)
+- **Immune dysregulation:** Loss of helper T cell function, B cell dysfunction, impaired antigen presentation
+- **Chronic inflammation:** Persistent immune activation despite viral suppression on ART
+- **Reservoir establishment:** Latently infected long-lived cells (resting CD4+ T cells) persist despite ART, preventing cure
+
+**Disease Progression Stages:**
+1. **Acute HIV Infection (Primary Infection):** 2-4 weeks post-exposure, high viral replication, acute retroviral syndrome
+2. **Chronic HIV Infection (Clinical Latency):** Years to decades, asymptomatic or mild symptoms, progressive CD4 decline
+3. **AIDS (Advanced HIV):** CD4 <200 cells/µL or AIDS-defining opportunistic infection/cancer, severe immunodeficiency
 
 ## Transmission
-- Unprotected sexual contact
-- Sharing needles or syringes
-- Mother to child during pregnancy, childbirth, or breastfeeding
-- Blood transfusions (now rare due to screening)
+**Routes of Transmission:**
 
-## Prevention
-- Use protection during sexual activity
-- Never share needles
-- Pre-exposure prophylaxis (PrEP) for high-risk individuals
-- Regular testing and early treatment
+*Sexual Transmission (80-90% globally):*
+- Vaginal, anal, or oral sex with infected partner
+- Risk per act: Receptive anal (1.4%), insertive anal (0.11%), receptive vaginal (0.08%), insertive vaginal (0.04%), oral (very low)
+- Higher risk with: High viral load, STIs, genital ulcers, menstruation, uncircumcised males
+- Viral load undetectable on ART: Zero transmission risk (U=U: Undetectable = Untransmittable)
 
-## Treatment
-- Antiretroviral therapy (ART)
-- Regular monitoring and medication adherence
-- Treatment significantly extends life expectancy
-- Modern treatments allow people with HIV to live normal lifespans
+*Blood-Borne Transmission:*
+- **Injection drug use:** Sharing needles, syringes, equipment (contaminated blood)
+- **Transfusion/blood products:** Rare in countries with screening (pre-1985 and resource-limited settings)
+- **Needle stick injury:** Healthcare workers, 0.3% risk per exposure (lower if source on ART)
+
+*Mother-to-Child Transmission (Vertical/Perinatal):*
+- **During pregnancy:** Placental transmission
+- **During delivery:** Exposure to blood and vaginal fluids
+- **Breastfeeding:** Virus in breast milk
+- **Risk without intervention:** 15-45%
+- **Risk with ART and interventions:** <1-2% (maternal ART, infant prophylaxis, cesarean if indicated, avoid breastfeeding in resource-rich settings)
+
+**NOT Transmitted By:**
+- Casual contact: Hugging, kissing (closed-mouth), sharing utensils, toilet seats
+- Saliva, tears, sweat (insufficient viral concentration)
+- Mosquitoes or other insects
+- Air or water
+
+## Risk Factors
+- Unprotected sex (without condoms) with multiple or unknown partners
+- Having another STI (syphilis, herpes, gonorrhea, chlamydia) - increases transmission risk
+- Injection drug use with shared equipment
+- Receiving blood transfusions or blood products in countries without screening
+- Men who have sex with men (MSM) - higher prevalence in this population
+- Transgender women - disproportionately affected
+- Sex workers
+- Vertical transmission (infants born to HIV-positive mothers without prevention)
+- Healthcare exposure (needle sticks)
+- Uncircumcised males - 60% higher risk of acquiring HIV from heterosexual contact
+
+## Clinical Presentation and Symptoms
+**Acute HIV Infection (Acute Retroviral Syndrome):**
+- **Timing:** 2-4 weeks after exposure (window period before antibody development)
+- **Duration:** 1-2 weeks, self-limited
+- **Symptoms (50-90% of infected individuals):**
+  - Fever (80-90%)
+  - Fatigue and malaise
+  - Pharyngitis (sore throat)
+  - Lymphadenopathy (swollen lymph nodes)
+  - Maculopapular rash (trunk, face)
+  - Headache
+  - Myalgia and arthralgia
+  - Night sweats
+  - Oral or genital ulcers
+  - Diarrhea
+  - Neurological symptoms (meningitis, neuropathy) in some
+- **Laboratory:** Very high viral load (>100,000 copies/mL), transient CD4 decline, negative or indeterminate antibody test initially (RNA test positive)
+- **Significance:** Highly infectious period, opportunity for early diagnosis and treatment
+
+**Chronic HIV Infection (Clinical Latency):**
+- **Duration:** Variable, years to decades (faster without treatment)
+- **Asymptomatic or minimally symptomatic**
+- **Persistent generalized lymphadenopathy:** Painless swollen lymph nodes
+- **Gradual CD4 decline:** ~50-100 cells/µL per year without ART
+- **Ongoing viral replication:** Chronic low-level viremia
+- **Possible symptoms:** Oral thrush, recurrent herpes zoster (shingles), seborrheic dermatitis, oral hairy leukoplakia
+
+**Advanced HIV Infection/AIDS (CD4 <200 cells/µL):**
+- **Constitutional symptoms:** Profound fatigue, weight loss (>10%), chronic diarrhea, persistent fever, night sweats
+- **Opportunistic Infections (OIs):** Infections by organisms that don't cause disease in immunocompetent hosts
+- **AIDS-Defining Cancers**
+- **Neurological complications**
+
+**Major Opportunistic Infections by CD4 Count:**
+
+*CD4 <200 cells/µL:*
+- **Pneumocystis jirovecii pneumonia (PCP):** Dyspnea, dry cough, fever, bilateral infiltrates, most common OI
+- **Mucocutaneous candidiasis:** Oral thrush, esophageal candidiasis (dysphagia, odynophagia)
+
+*CD4 <100 cells/µL:*
+- **Toxoplasma gondii encephalitis:** Headache, confusion, focal neurological deficits, seizures, ring-enhancing lesions
+- **Cryptococcal meningitis:** Headache, fever, altered mental status, elevated intracranial pressure
+- **Progressive multifocal leukoencephalopathy (PML):** JC virus, progressive neurological deficits
+- **Disseminated histoplasmosis or coccidioidomycosis:** Endemic fungi, fever, weight loss, hepatosplenomegaly
+
+*CD4 <50 cells/µL:*
+- **Mycobacterium avium complex (MAC/MAI):** Disseminated disease, fever, night sweats, weight loss, diarrhea, hepatosplenomegaly
+- **Cytomegalovirus (CMV):** Retinitis (blindness), colitis, esophagitis, encephalitis
+
+*Other OIs:*
+- **Tuberculosis:** Any CD4 count, pulmonary or extrapulmonary, leading OI globally
+- **Bacterial infections:** Recurrent pneumonia, Salmonella septicemia
+- **Herpes simplex virus:** Chronic mucocutaneous ulcers (>1 month), esophagitis
+
+**AIDS-Defining Cancers:**
+- **Kaposi sarcoma:** HHV-8-associated, purple skin lesions, mucosal involvement, visceral disease
+- **Non-Hodgkin lymphoma:** High-grade B-cell lymphomas, primary CNS lymphoma
+- **Cervical cancer:** Invasive, HPV-associated
+- **Other increased risk:** Anal cancer, Hodgkin lymphoma, lung cancer, liver cancer
+
+**HIV-Associated Neurological Disorders:**
+- **HIV-associated dementia (HAD):** Subcortical dementia, cognitive decline, motor abnormalities (rare with ART)
+- **Peripheral neuropathy:** Distal symmetric polyneuropathy, painful
+- **HIV encephalopathy**
+
+## Diagnosis
+**HIV Testing Algorithm:**
+
+*Screening Tests:*
+- **4th Generation Immunoassay (Recommended):** Detects HIV-1/2 antibodies + p24 antigen
+  - Window period: 2-4 weeks (detects infection earlier)
+  - Highly sensitive (>99%)
+- **Rapid Tests:** Point-of-care, oral fluid or blood, 20 minutes
+  - Antibody only (longer window period)
+  - Used in outreach, emergency settings
+
+*Confirmatory/Supplemental Tests:*
+- **HIV-1/HIV-2 Antibody Differentiation Assay:** Distinguishes HIV-1 from HIV-2
+- **HIV-1 RNA (Viral Load):** If antibody tests discordant, confirms acute infection
+
+*Testing Algorithm (CDC Recommended):*
+1. 4th generation immunoassay (screen)
+2. If positive → HIV-1/HIV-2 differentiation assay
+3. If differentiation negative/indeterminate → HIV-1 RNA test (detects acute infection)
+
+**Window Period:** Time between infection and test detectability
+- RNA tests (viral load): 10-14 days
+- 4th generation: 2-4 weeks
+- 3rd generation (antibody only): 3-6 weeks
+
+**Baseline Evaluation After HIV Diagnosis:**
+- **CD4 count:** Determines immune status, OI prophylaxis, urgency of ART
+- **HIV RNA viral load:** Baseline level, monitors treatment response
+- **Resistance testing (genotype):** Detects transmitted drug resistance, guides ART regimen
+- **HLA-B*5701 testing:** Abacavir hypersensitivity risk
+- **Tropism testing (coreceptor):** If considering CCR5 antagonist
+- **Screening labs:** CBC, CMP, lipid panel, LFTs, hepatitis B and C serology, STI screening (syphilis, gonorrhea, chlamydia), tuberculosis testing (TST or IGRA), toxoplasma serology, CMV serology, pregnancy test
+
+**Screening Recommendations:**
+- **Universal:** All individuals ages 13-64 at least once
+- **Annual:** High-risk populations (MSM, PWID, multiple partners, STI diagnosis)
+- **Opt-out testing:** Routine in healthcare settings, pregnancy
+
+## Treatment - Antiretroviral Therapy (ART)
+**Goals of ART:**
+- Suppress viral replication (undetectable viral load <50 copies/mL)
+- Restore and preserve immune function (increase CD4 count)
+- Reduce HIV-related morbidity and mortality
+- Improve quality of life
+- Prevent HIV transmission (U=U)
+
+**Universal ART Recommendation:**
+- **Start ART immediately** for all people with HIV regardless of CD4 count
+- **Benefits:** Individual health, prevention of transmission, reduced reservoir seeding
+- **"Test and Start"** approach: Offer ART at diagnosis
+
+**ART Drug Classes (Mechanism of Action):**
+
+1. **Nucleoside/Nucleotide Reverse Transcriptase Inhibitors (NRTIs):** Backbone of regimens
+   - Tenofovir (TDF or TAF), Emtricitabine (FTC), Lamivudine (3TC), Abacavir (ABC)
+   - Inhibit reverse transcription of viral RNA to DNA
+
+2. **Non-Nucleoside Reverse Transcriptase Inhibitors (NNRTIs):**
+   - Efavirenz (EFV), Rilpivirine (RPV), Doravirine (DOR)
+   - Bind reverse transcriptase, block activity
+
+3. **Integrase Strand Transfer Inhibitors (INSTIs):** Preferred anchor
+   - Dolutegravir (DTG), Bictegravir (BIC), Raltegravir (RAL)
+   - Block integration of viral DNA into host genome
+   - High barrier to resistance, well-tolerated, potent
+
+4. **Protease Inhibitors (PIs):**
+   - Darunavir (DRV), Atazanavir (ATV) - boosted with ritonavir (RTV) or cobicistat (COBI)
+   - Inhibit protease, prevent viral maturation
+   - High barrier to resistance
+
+5. **Entry Inhibitors:**
+   - **CCR5 Antagonists:** Maraviroc (MVC) - blocks CCR5 coreceptor
+   - **Fusion Inhibitors:** Enfuvirtide (T-20) - injectable, rarely used
+
+6. **Post-Attachment Inhibitors:**
+   - Fostemsavir (FTR) - blocks gp120 attachment to CD4
+
+7. **Pharmacokinetic Enhancers:**
+   - Ritonavir (RTV), Cobicistat (COBI) - boost other drug levels, not active against HIV
+
+**Recommended Initial ART Regimens (2 NRTIs + Anchor):**
+- **Bictegravir/Tenofovir AF/Emtricitabine (BIC/TAF/FTC)** - Single tablet, once daily
+- **Dolutegravir/Abacavir/Lamivudine (DTG/ABC/3TC)** - Single tablet, once daily (if HLA-B*5701 negative)
+- **Dolutegravir (DTG) + Tenofovir DF/Emtricitabine (TDF/FTC)** or Tenofovir AF/Emtricitabine (TAF/FTC)
+- **Dolutegravir/Lamivudine (DTG/3TC)** - 2-drug regimen, baseline VL <500,000, no HBV
+
+**Monitoring on ART:**
+- **Viral load:** 2-4 weeks after starting, then every 3-6 months (goal: undetectable <50 copies/mL by 6 months)
+- **CD4 count:** Every 3-6 months until >500 for 2 years and viral load suppressed, then can decrease frequency
+- **Adherence assessment:** Critical for success
+- **Toxicity monitoring:** Labs based on regimen (renal function, bone density, lipids, liver function)
+- **Drug interactions:** Check with all new medications
+
+**Adherence:**
+- **Goal:** >95% adherence to prevent resistance
+- **Barriers:** Pill burden, side effects, stigma, mental health, substance use, housing instability, cost
+- **Strategies:** Single-tablet regimens, adherence counseling, peer support, address barriers
+
+**Treatment Failure:**
+- **Virologic failure:** Inability to suppress VL <200 copies/mL, or rebound after suppression
+- **Causes:** Non-adherence (most common), drug resistance, drug interactions, inadequate dosing
+- **Management:** Resistance testing (genotype/phenotype), switch to active regimen based on resistance, address adherence barriers
+
+**Drug Resistance:**
+- Develops with incomplete viral suppression (replication in presence of suboptimal drug levels)
+- Mutations in reverse transcriptase, protease, integrase genes
+- Limits treatment options
+- Prevented by adherence to effective regimens
+
+**Side Effects and Toxicities:**
+- **INSTI-related:** Weight gain, insomnia, headache, nausea (generally well-tolerated)
+- **NNRTI-related:** Rash, CNS symptoms (vivid dreams, dizziness with EFV), hepatotoxicity
+- **PI-related:** GI upset, dyslipidemia, lipodystrophy, hyperglycemia
+- **Tenofovir DF (TDF):** Renal toxicity, bone density loss (less with TAF)
+- **Abacavir:** Hypersensitivity reaction (if HLA-B*5701 positive)
+
+**Special Populations:**
+
+*Pregnancy:*
+- ART throughout pregnancy to prevent mother-to-child transmission
+- **Regimens:** DTG-based (preferred), integrase-based regimens
+- **Avoid:** Dolutegravir in first trimester if possible (neural tube defect concern, but benefit outweighs risk)
+- **Infant prophylaxis:** Zidovudine or nevirapine post-delivery
+- **Cesarean section:** If VL >1000 copies/mL near delivery
+- **Breastfeeding:** Avoid in resource-rich settings; in resource-limited, mother on ART can breastfeed with infant prophylaxis
+
+*Children and Adolescents:*
+- Weight-based dosing
+- Adherence challenges in adolescents
+- Transition to adult care planning
+
+*Older Adults:*
+- Increasing proportion of people with HIV >50 years
+- Comorbidities (cardiovascular, renal, bone), polypharmacy
+- Drug interactions, toxicity concerns
+
+## Prevention Strategies
+**Pre-Exposure Prophylaxis (PrEP):**
+- **Indication:** HIV-negative individuals at substantial ongoing risk
+  - MSM with condomless sex, STI, HIV-positive partner
+  - Heterosexual individuals with high-risk partner or region
+  - People who inject drugs
+- **Regimens:**
+  - **Oral:** Tenofovir DF/Emtricitabine (TDF/FTC) daily (Truvada) - >99% effective if adherent
+  - **Oral:** Tenofovir AF/Emtricitabine (TAF/FTC) daily (Descovy) - not studied in cisgender women/receptive vaginal sex
+  - **Injectable:** Cabotegravir (CAB-LA) every 2 months - superior to oral PrEP
+  - **On-Demand (Event-Driven) PrEP:** 2-1-1 dosing (2 pills 2-24 hrs before, 1 pill 24 hrs after, 1 pill 48 hrs after) - MSM only
+- **Monitoring:** HIV test every 3 months, STI screening, adherence support
+- **Game-changer:** Dramatically reduces new infections in high-risk populations
+
+**Post-Exposure Prophylaxis (PEP):**
+- **Emergency intervention** after potential exposure (sexual assault, condom break, needle stick, mucous membrane exposure)
+- **Timing:** Start as soon as possible, ideally within 72 hours (sooner is better)
+- **Regimen:** 3-drug ART for 28 days (e.g., TDF/FTC + Dolutegravir or Raltegravir)
+- **Follow-up:** HIV testing at baseline, 4-6 weeks, 3 months; adherence support
+
+**Other Prevention Methods:**
+- **Condoms:** Male and female condoms, consistent and correct use
+- **Harm reduction (PWID):** Needle/syringe exchange programs, safe injection sites, medication-assisted treatment (MAT) for opioid use disorder
+- **Treatment as Prevention (TasP):** U=U - people with HIV on ART with undetectable viral load cannot transmit sexually
+- **STI screening and treatment:** Reduces HIV acquisition and transmission risk
+- **Voluntary medical male circumcision (VMMC):** Reduces female-to-male transmission by ~60%, implemented in high-prevalence African countries
+- **Testing and linkage to care:** Diagnose and treat to prevent onward transmission
+
+**Ending the HIV Epidemic Initiative:**
+- **Diagnose:** Rapid testing, outreach to high-prevalence areas
+- **Treat:** Immediate ART, viral suppression
+- **Prevent:** PrEP scale-up, harm reduction
+- **Respond:** Rapid outbreak detection and response
+
+## Complications and Comorbidities
+**Immune Reconstitution Inflammatory Syndrome (IRIS):**
+- Paradoxical worsening of infections or inflammatory conditions after starting ART
+- Occurs within weeks to months, CD4 increases, immune system "reawakens"
+- Examples: TB-IRIS, CMV-IRIS, cryptococcal IRIS
+- Management: Continue ART, treat underlying infection, corticosteroids if severe
+
+**Non-AIDS Comorbidities (Chronic HIV with ART):**
+- **Cardiovascular disease:** Increased risk of MI, stroke (chronic inflammation, ART effects, traditional risk factors)
+- **Chronic kidney disease:** HIV-associated nephropathy (HIVAN), ART toxicity (TDF)
+- **Bone disease:** Osteopenia, osteoporosis, fractures
+- **Metabolic syndrome:** Dyslipidemia, insulin resistance, diabetes
+- **Liver disease:** Hepatitis B/C coinfection common, NAFLD, cirrhosis
+- **Malignancies:** Increased risk of virus-associated (HPV, HBV, HCV, EBV) and non-virus-associated cancers (lung)
+- **Neurocognitive impairment:** HIV-associated neurocognitive disorder (HAND), milder forms persist on ART
+- **Mental health:** Depression, anxiety, substance use disorders
+- **Accelerated aging:** Chronic inflammation contributes to age-related diseases
+
+**Management:**
+- Screen for and manage comorbidities
+- Smoking cessation, cardiovascular risk reduction
+- Bone density screening (DEXA scan)
+- Cancer screening (cervical, anal, liver, lung)
+- Mental health and substance use treatment integration
+
+## Prognosis
+**Without Treatment:**
+- Median time from infection to AIDS: 8-10 years (variable)
+- Median survival after AIDS diagnosis: 1-2 years
+- Overall untreated mortality: ~90% within 10-15 years
+
+**With ART:**
+- **Life expectancy:** Near-normal if diagnosed early and virally suppressed (within a few years of HIV-negative peers)
+- **Viral suppression rates:** >85% of people on ART in US achieve viral suppression
+- **Mortality:** Dramatically reduced, HIV transformed from fatal to chronic manageable disease
+- **Quality of life:** Excellent if adherent to ART, managing comorbidities
+
+**Factors Affecting Prognosis:**
+- **CD4 count at diagnosis:** Higher is better (start ART early)
+- **Viral suppression:** Achieving and maintaining undetectable VL
+- **Adherence to ART**
+- **Access to care and ART**
+- **Comorbidities:** Hepatitis coinfection, substance use, mental health
+- **Social determinants:** Housing, stigma, discrimination, socioeconomic status
+
+## Global Burden and Epidemiology
+**Global Statistics (2022):**
+- **People living with HIV (PLWH):** 39 million
+- **New infections:** 1.3 million annually (down from 3.2 million in 1997 peak)
+- **AIDS-related deaths:** 630,000 annually (down from 2 million peak in 2004)
+- **On ART:** 29.8 million (76% of PLWH)
+- **Virally suppressed:** 71% of PLWH
+
+**Regional Distribution:**
+- **Sub-Saharan Africa:** 68% of global PLWH, epicenter of epidemic (South Africa, Nigeria, Mozambique)
+- **Eastern Europe and Central Asia:** Rising incidence
+- **Asia and Pacific:** Large absolute numbers (India, Thailand, Indonesia)
+- **Americas, Western Europe:** Declining incidence, high treatment coverage
+
+**Key Populations Disproportionately Affected:**
+- Men who have sex with men (MSM)
+- People who inject drugs (PWID)
+- Sex workers
+- Transgender people
+- Prisoners
+- These populations account for ~70% of new infections outside sub-Saharan Africa
+
+**UNAIDS 95-95-95 Targets by 2030:**
+- 95% of PLWH know their status
+- 95% of diagnosed on ART
+- 95% on ART virally suppressed
+- **Current progress:** 86-89-93 (2022), closing in on targets
+
+## Challenges and Future Directions
+**Ongoing Challenges:**
+- **No cure:** Latent HIV reservoir prevents eradication
+- **No vaccine:** Despite decades of research
+- **Stigma and discrimination:** Barriers to testing, care, adherence
+- **Health disparities:** Racial/ethnic minorities, LGBTQ+ communities, low-resource settings
+- **Access to ART:** Global inequities, medication costs
+- **Drug resistance:** Transmitted and acquired resistance
+- **Young people and women:** Disproportionate new infections (sub-Saharan Africa)
+- **Linkage and retention in care:** Gaps in HIV care continuum
+- **Comorbidities and aging:** Managing chronic HIV and associated conditions
+
+**Research and Innovation:**
+- **Cure research:** Kick-and-kill strategies, gene editing, immune-based therapies (Berlin and London patients: HIV cure via stem cell transplant with CCR5Δ32 mutation, not scalable)
+- **Long-acting ART:** Cabotegravir/Rilpivirine injections every 2 months, lenacapavir every 6 months (in trials)
+- **Vaccine development:** mRNA platforms, broadly neutralizing antibodies
+- **Broadly neutralizing antibodies (bNAbs):** Passive immunization for prevention and treatment
+- **PrEP innovations:** Long-acting injectables, implants, vaginal rings, broadly accessible formulations
+- **Point-of-care diagnostics:** Viral load testing in resource-limited settings
+
+## Key Takeaways
+HIV/AIDS has transformed from a universally fatal disease in the 1980s to a manageable chronic condition with near-normal life expectancy, thanks to antiretroviral therapy. Early diagnosis through widespread testing, immediate initiation of ART achieving viral suppression (U=U), and prevention tools like PrEP and harm reduction are cornerstones of modern HIV management. While challenges remain—particularly addressing health disparities, stigma, and achieving a cure—the tools exist to control the epidemic. Global commitment to the 95-95-95 targets, equitable access to prevention and treatment, and continued research toward a vaccine and cure are essential to ending AIDS as a public health threat.

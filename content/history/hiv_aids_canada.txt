@@ -1,17 +1,44 @@
-# HIV/AIDS in Canada
+HIV/AIDS in Canada — Knowledge Base
+1. Overview
+HIV attacks immune system. AIDS is advanced untreated HIV. Canada has achieved good HIV control but challenges remain.
 
-HIV/AIDS has been a significant public health concern in Canada since the early 2000s. The disease patterns have evolved considerably over the past two decades.
+2. Historical Context
+Epidemic emerged 1980s. Strong community response. Universal healthcare enables treatment access. Harm reduction pioneered.
 
-## Historical Overview
-In the year 2000, Canada reported its initial cases of HIV/AIDS, marking the beginning of extensive monitoring and public health interventions. The government responded by establishing specialized treatment centers and launching awareness campaigns.
+3. Transmission
+Sexual contact, needle sharing, mother-to-child
 
-## Major Developments
-Between 2005 and 2010, Canada experienced fluctuating case numbers due to various factors including improved diagnostic capabilities, public health initiatives, and changing demographic patterns. Healthcare infrastructure was significantly enhanced during this period.
+4. Clinical Course
+Acute, chronic, AIDS if untreated. ART prevents progression.
 
-## Recent Trends
-From 2015 onwards, Canada has implemented advanced treatment protocols and prevention strategies. The integration of technology in healthcare delivery has improved disease tracking and patient outcomes. Modern medical interventions have shown promising results in managing HIV/AIDS.
+5. Diagnosis
+Testing available nationwide including rapid tests
 
-## Current Status
-As of 2025, Canada continues to monitor and manage HIV/AIDS cases through comprehensive healthcare programs. Ongoing research and international collaboration contribute to better understanding and treatment of this condition.
+6. Treatment
+ART universally accessible through healthcare. PrEP available. U=U recognized.
 
-Data Source: National Health Database and WHO estimates.
+7. Current Trends
+Steady new infections
+High diagnosis and treatment rates
+Disparities: Indigenous peoples, MSM, people who inject drugs
+Mother-to-child transmission rare
+
+8. Projections
+Goal to end HIV epidemic
+Long-acting treatments
+Vaccine/cure research
+
+9. Challenges
+Indigenous health disparities
+Stigma
+Reaching marginalized populations
+Provincial variations in PrEP access
+
+10. Prevention
+Condoms, PrEP, needle exchange, supervised consumption sites, testing, education, treatment as prevention
+
+11. Public Health
+Federal HIV/AIDS Initiative, provincial programs, community organizations, universal healthcare, harm reduction, research
+
+12. Summary
+Canada addresses HIV through universal healthcare, harm reduction leadership, community partnerships, and comprehensive prevention-treatment approach while working to eliminate disparities.

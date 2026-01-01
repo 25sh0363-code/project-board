@@ -1,27 +1,348 @@
-# Tuberculosis - Complete Information
+# Tuberculosis (TB) - Comprehensive Medical Information
 
-## What is Tuberculosis?
-Tuberculosis (TB) is a bacterial infection that primarily affects the lungs but can spread to other organs. It's caused by Mycobacterium tuberculosis bacteria.
+## Overview
+Tuberculosis (TB) is an ancient infectious disease caused by Mycobacterium tuberculosis (Mtb), primarily affecting the lungs (pulmonary TB) but capable of infecting virtually any organ (extrapulmonary TB). Despite being preventable and curable, TB remains one of the world's deadliest infectious diseases, ranking alongside COVID-19 as the second leading infectious cause of death globally (after COVID-19 during the pandemic). In 2022, an estimated 10.6 million people fell ill with TB, and 1.3 million died. The emergence of drug-resistant TB poses a significant threat to global TB control efforts.
 
-## Symptoms
-- Persistent cough lasting 3+ weeks
-- Coughing up blood or mucus
-- Chest pain and pain with breathing
-- Fever, night sweats, and weight loss
+## Microbiology and Pathogenesis
+**Mycobacterium tuberculosis Characteristics:**
+- Acid-fast bacillus with lipid-rich cell wall
+- Slow-growing organism (doubling time 15-20 hours)
+- Aerobic, preferring oxygen-rich environments (lung apices)
+- Intracellular pathogen surviving within macrophages
+- Forms dormant persister cells enabling latent infection
+- High lipid content (mycolic acids) provides resistance to drying, antibiotics
 
-## Transmission
-- Airborne spread through coughing, sneezing, or speaking
-- Prolonged exposure increases risk
-- Not spread through touching or sharing food
+**Infection Process:**
+1. **Transmission:** Inhalation of airborne droplet nuclei containing Mtb
+2. **Primary Infection:** Bacteria reach alveoli, engulfed by alveolar macrophages
+3. **Immune Response:** 
+   - Initial innate immune response insufficient
+   - T-cell mediated immunity develops (2-8 weeks)
+   - Formation of granulomas (caseating necrosis surrounded by macrophages, lymphocytes, fibroblasts)
+   - Tuberculin skin test (TST) or interferon-gamma release assay (IGRA) converts positive
+4. **Outcomes:**
+   - **Clearance:** Rare, complete elimination of bacteria
+   - **Latent TB Infection (LTBI):** 90% of immunocompetent individuals, bacteria contained but viable, no symptoms, not contagious
+   - **Active TB Disease:** 5-10% progress to active disease (half within 2 years, half later)
 
-## Prevention
-- BCG vaccination in high-risk areas
-- Prompt treatment of active cases
-- Proper ventilation in living spaces
-- Wearing masks in high-risk settings
+**Reactivation Tuberculosis:**
+- Dormant bacteria in granulomas reactivate due to weakened immunity
+- Risk factors: HIV, immunosuppression, malnutrition, diabetes, smoking, aging
+- Typically affects lung apices (high oxygen tension)
+- Accounts for majority of adult pulmonary TB in low-incidence countries
+
+**Granuloma Formation:**
+- Host immune response attempts to wall off infection
+- Central caseous necrosis with high bacterial load
+- Surrounding epithelioid macrophages, giant cells, lymphocytes
+- Fibroblasts and collagen form capsule
+- Balance between containment and tissue destruction
+- Granuloma breakdown leads to cavitation and bronchial spread
+
+## Epidemiology
+**Global Burden:**
+- **Incidence:** 10.6 million new cases (2022)
+- **Mortality:** 1.3 million deaths (2022)
+- **Latent TB:** Estimated 1.7-2 billion people (¼ of world population)
+- **Geographic distribution:** 
+  - 87% of cases in 30 high-burden countries
+  - Highest: India (27%), Indonesia (10%), China (7.4%), Philippines, Pakistan
+  - Sub-Saharan Africa has highest incidence rate per capita
+- **Trends:** Declining incidence globally, but COVID-19 pandemic reversed progress
+
+**Risk Factors:**
+- **HIV/AIDS:** 20-30 fold increased risk, leading cause of death in HIV
+- **Malnutrition and undernutrition:** Weakened immunity
+- **Diabetes:** 2-3 fold increased risk
+- **Smoking and alcohol use:** Impaired immune response, lung damage
+- **Indoor air pollution:** Biomass fuel exposure
+- **Silica dust exposure:** Occupational risk
+- **Chronic lung disease:** COPD, prior TB
+- **Immunosuppressive medications:** Corticosteroids, TNF-alpha inhibitors, chemotherapy
+- **Chronic kidney disease and dialysis**
+- **Crowded living conditions:** Homeless shelters, prisons, refugee camps
+- **Healthcare workers:** Occupational exposure
+- **Recent TB contact:** Close household contact with active TB
+- **Age extremes:** Young children, elderly
+
+## Clinical Presentation
+**Latent TB Infection (LTBI):**
+- No symptoms
+- Normal chest X-ray
+- Positive TST or IGRA
+- Not infectious
+- 5-10% lifetime risk of progression to active TB
+
+**Pulmonary TB (Most Common - 85%):**
+
+*Classic Symptoms:*
+- **Chronic cough:** >3 weeks duration, initially dry then productive
+- **Hemoptysis:** Coughing up blood (varying amounts)
+- **Chest pain:** Pleuritic or dull, persistent
+- **Dyspnea:** Shortness of breath in advanced disease
+
+*Constitutional Symptoms:*
+- **Fever:** Low-grade, often evening/night
+- **Night sweats:** Drenching, requiring clothing/bedding changes
+- **Weight loss:** Unintentional, significant ("wasting disease")
+- **Fatigue and malaise:** Profound, limiting activities
+- **Loss of appetite:** Anorexia
+
+*Physical Examination:*
+- Often unremarkable in early disease
+- Crackles on auscultation (post-tussive, apical)
+- Decreased breath sounds in advanced disease
+- Signs of consolidation or effusion
+- Cachexia in chronic/severe cases
+
+**Extrapulmonary TB (15% of cases, higher in HIV):**
+
+*TB Lymphadenitis (Most Common Extrapulmonary):*
+- Painless, enlarging lymph nodes (cervical, supraclavicular)
+- Matted, may form cold abscesses, sinus tracts
+- Scrofula: Cervical lymphadenitis
+
+*TB Meningitis:*
+- Gradual onset over weeks: Headache, fever, neck stiffness
+- Altered mental status, seizures, cranial nerve palsies
+- High mortality and morbidity, especially if delayed treatment
+- More common in young children and HIV-infected adults
+
+*Skeletal TB (Pott's Disease):*
+- Vertebral involvement (50% of skeletal TB)
+- Back pain, gibbus deformity, paraplegia if spinal cord compression
+- Peripheral joint involvement (knee, hip)
+
+*Miliary (Disseminated) TB:*
+- Hematogenous spread, multiple organs
+- Sepsis-like presentation: High fever, respiratory distress, multi-organ failure
+- "Millet seed" appearance on chest X-ray
+- High mortality without treatment
+- More common in immunocompromised, infants, elderly
+
+*Other Sites:*
+- Genitourinary TB: Dysuria, hematuria, infertility, chronic pelvic pain
+- Abdominal TB: Peritonitis, bowel obstruction, ascites
+- Pericardial TB: Pericarditis, cardiac tamponade, constrictive pericarditis
+- TB pleuritis: Exudative pleural effusion, pleuritic chest pain
+
+## Diagnosis
+**Clinical Suspicion:**
+- High index of suspicion in endemic areas or high-risk populations
+- Symptoms + epidemiologic risk factors
+
+**Tuberculin Skin Test (TST - Mantoux Test):**
+- Intradermal injection of purified protein derivative (PPD)
+- Read at 48-72 hours (induration, not erythema)
+- Positive cutoffs vary by risk:
+  - ≥5 mm: HIV, recent contact, immunosuppressed, chest X-ray findings
+  - ≥10 mm: Recent immigrants, healthcare workers, high-risk settings
+  - ≥15 mm: Low-risk individuals
+- False positives: BCG vaccination, non-tuberculous mycobacteria
+- False negatives: Anergy (severe immunosuppression, acute TB)
+
+**Interferon-Gamma Release Assays (IGRAs):**
+- Blood tests: QuantiFERON-TB Gold, T-SPOT.TB
+- Measure T-cell response to Mtb-specific antigens
+- Not affected by BCG vaccination
+- Advantages: Single visit, no reader variability
+- Cannot distinguish LTBI from active TB
+
+**Microbiological Diagnosis (Definitive):**
+
+*Sputum Microscopy (Acid-Fast Bacilli - AFB Smear):*
+- Ziehl-Neelsen or auramine staining
+- 3 sputum samples (spot-morning-spot)
+- Rapid (same day), inexpensive
+- Sensitivity 50-70% (requires 5,000-10,000 bacilli/mL)
+- Cannot distinguish Mtb from non-tuberculous mycobacteria (NTM)
+
+*Mycobacterial Culture (Gold Standard):*
+- Solid media (Löwenstein-Jensen): 6-8 weeks
+- Liquid media (MGIT - Mycobacteria Growth Indicator Tube): 2-3 weeks
+- Higher sensitivity than smear, detects lower bacterial loads
+- Allows drug susceptibility testing (DST)
+- Species identification confirms Mtb
+
+*Molecular Tests (Nucleic Acid Amplification Tests - NAATs):*
+- **GeneXpert MTB/RIF and Ultra:** Rapid (2 hours), detects Mtb and rifampin resistance
+  - WHO-recommended initial diagnostic test
+  - Sensitivity 85-90%, higher than smear
+  - Revolutionized TB diagnosis, especially in resource-limited settings
+- **Line Probe Assays (LPA):** Detect resistance to rifampin and isoniazid (first-line) and second-line drugs
+- **Whole Genome Sequencing (WGS):** Comprehensive resistance profiling, transmission tracking (emerging)
+
+**Radiological Diagnosis:**
+
+*Chest X-ray:*
+- **Primary TB:** Hilar/mediastinal lymphadenopathy, lower/middle lobe infiltrates, pleural effusion
+- **Reactivation TB:** Upper lobe infiltrates, cavitation, fibrosis, volume loss
+- **Miliary TB:** Diffuse micronodular "millet seed" pattern
+- **Limitations:** Non-specific findings, cannot confirm diagnosis alone
+
+*CT Chest:*
+- More sensitive, characterizes extent, complications
+- Tree-in-bud pattern (bronchiolar spread)
+
+**Histopathology:**
+- Biopsy of lymph nodes, pleura, other tissues
+- Caseating granulomas with acid-fast bacilli
+- Supports diagnosis when culture not possible
+
+**Extrapulmonary Specimens:**
+- CSF analysis (meningitis): Lymphocytic pleocytosis, low glucose, high protein
+- Pleural fluid analysis: Exudative, lymphocyte-predominant, elevated adenosine deaminase (ADA)
+- Tissue biopsies: Lymph node, bone, etc.
 
 ## Treatment
-- 6-9 month course of antibiotics
-- Combination of multiple drugs
-- Directly observed therapy (DOT)
-- Drug-resistant TB requires longer treatment
+**Latent TB Infection (LTBI):**
+
+*Goal:* Prevent progression to active disease
+
+*Regimens:*
+- **3HP:** Isoniazid + Rifapentine weekly × 12 weeks (preferred)
+- **4R:** Rifampin daily × 4 months
+- **3HR:** Isoniazid + Rifampin daily × 3 months
+- **6H/9H:** Isoniazid daily × 6-9 months (alternative)
+
+*Indications:*
+- Positive TST/IGRA with no active disease
+- Recent contacts of active TB cases
+- HIV-infected individuals
+- Immunosuppressed patients (before starting biologics)
+- Fibrotic changes on chest X-ray (old TB)
+
+**Active TB Disease:**
+
+*Drug-Susceptible TB:*
+
+**Intensive Phase (2 months): HRZE**
+- **H:** Isoniazid (INH) - Inhibits mycolic acid synthesis
+- **R:** Rifampin (RIF) - RNA polymerase inhibitor
+- **Z:** Pyrazinamide (PZA) - Sterilizing agent, acidic pH activity
+- **E:** Ethambutol (EMB) - Inhibits cell wall synthesis
+
+**Continuation Phase (4 months): HR**
+- Isoniazid + Rifampin daily
+
+*Total Duration:* 6 months for drug-susceptible pulmonary TB
+- Longer for TB meningitis (9-12 months), bone/joint TB (9 months), cavitary disease with delayed culture conversion
+
+*Directly Observed Therapy (DOT):*
+- Healthcare worker observes ingestion of each dose
+- Improves adherence, reduces resistance development
+- WHO-recommended, especially for high-risk patients
+
+*Monitoring:*
+- Baseline: CBC, liver function tests, creatinine, HIV test, pregnancy test
+- Monthly clinical assessment and sputum culture until conversion
+- Monitor for adverse effects (hepatotoxicity, rash, neuropathy, vision changes)
+- Drug susceptibility testing if treatment failure or risk of resistance
+
+**Drug-Resistant TB:**
+
+*Rifampin-Resistant TB (RR-TB):* Resistant to rifampin ± other drugs
+
+*Multidrug-Resistant TB (MDR-TB):* Resistant to isoniazid + rifampin
+- **Treatment:** Longer (18-20 months), more toxic second-line drugs
+- **Regimens:** Bedaquiline-based regimens, fluoroquinolones, linezolid, newer agents
+- **Success rates:** Lower than drug-susceptible TB (60-70%)
+
+*Extensively Drug-Resistant TB (XDR-TB):* MDR-TB + resistance to fluoroquinolone + at least one injectable (amikacin, kanamycin, capreomycin)
+- **Treatment:** Very limited options, experimental drugs
+- **Outcomes:** Poor prognosis, high mortality
+
+*Shorter Regimens:* BPaL regimen (Bedaquiline, Pretomanid, Linezolid) for MDR/XDR-TB, 6 months
+
+**Adverse Effects of TB Drugs:**
+- **Isoniazid:** Hepatotoxicity, peripheral neuropathy (prevent with pyridoxine/vitamin B6), hypersensitivity
+- **Rifampin:** Hepatotoxicity, drug interactions (induces CYP450), orange discoloration of body fluids
+- **Pyrazinamide:** Hepatotoxicity, hyperuricemia/gout, arthralgia
+- **Ethambutol:** Optic neuritis (dose-dependent, check vision monthly)
+
+**Special Populations:**
+
+*HIV/TB Coinfection:*
+- Start TB treatment first, then ART (within 2-8 weeks)
+- Drug interactions: Rifampin reduces antiretroviral levels
+- Use rifabutin instead of rifampin with certain ART regimens
+- Immune reconstitution inflammatory syndrome (IRIS) risk
+- Cotrimoxazole prophylaxis
+
+*Pregnancy:*
+- Standard regimen HRZE safe (avoid streptomycin)
+- Pyridoxine supplementation
+- No breastfeeding contraindication
+
+*Children:*
+- Weight-based dosing
+- Higher doses recommended (recent WHO guidelines)
+- Shorter regimens for LTBI
+
+## Prevention and Control
+**Vaccination:**
+- **BCG (Bacillus Calmette-Guérin):** Live attenuated vaccine
+- Given at birth in high-burden countries
+- Prevents severe childhood TB (miliary, meningitis) 70-80% efficacy
+- Variable efficacy for pulmonary TB in adults (0-80%)
+- Does not prevent LTBI or reactivation
+- New TB vaccines in development (M72/AS01E, MTBVAC)
+
+**Infection Control:**
+- **Administrative:** Early diagnosis, isolation of infectious patients, cough etiquette
+- **Environmental:** Ventilation, UV germicidal irradiation, negative pressure rooms
+- **Personal Protective Equipment:** N95 respirators for healthcare workers
+
+**Contact Tracing:**
+- Identify and screen household and close contacts
+- Test with TST/IGRA, chest X-ray
+- LTBI treatment for exposed individuals
+
+**Screening Programs:**
+- High-risk populations: HIV clinics, prisons, homeless shelters, immigrant health screening
+- Active case finding in high-burden communities
+
+**Public Health Strategies:**
+- **END TB Strategy (WHO):** 90% reduction in TB deaths, 80% reduction in incidence by 2030
+- **DOTS (Directly Observed Treatment, Short-course):** Core strategy
+- **Universal Drug Susceptibility Testing**
+- **Preventive treatment scale-up**
+- **Address social determinants:** Poverty, malnutrition, housing
+- **Research and innovation:** New diagnostics, drugs, vaccines
+
+## Complications
+- Massive hemoptysis (life-threatening)
+- Respiratory failure and ARDS
+- Cor pulmonale (chronic lung disease)
+- Empyema and bronchopleural fistula
+- Secondary bacterial pneumonia
+- Aspergilloma in old TB cavities
+- Post-TB lung disease: Bronchiectasis, fibrosis, chronic respiratory symptoms
+
+## Prognosis
+- **Untreated active TB:** ~50% mortality (higher in HIV)
+- **Treated drug-susceptible TB:** >95% cure rate
+- **MDR-TB:** 60-70% treatment success
+- **XDR-TB:** <50% treatment success
+- **Predictors of poor outcome:** Drug resistance, HIV coinfection, delayed diagnosis, non-adherence, malnutrition, extensive disease
+
+## Global Progress and Challenges
+**Progress:**
+- TB deaths reduced by 42% since 2000
+- Incidence declining ~2% annually (pre-COVID)
+- GeneXpert rollout improved rapid diagnosis
+- Shorter MDR-TB regimens available
+
+**Challenges:**
+- COVID-19 pandemic disrupted TB services, reversed gains
+- Drug resistance increasing (MDR-TB 3.3% of new cases, 17.7% of previously treated)
+- HIV/TB coinfection
+- Underdiagnosis and underreporting (~30% of cases missed)
+- Funding gaps
+- Lack of rapid point-of-care diagnostics
+- Need for shorter, less toxic treatment regimens
+- No highly effective vaccine for adults
+- Social determinants: Poverty, malnutrition, crowding
+
+## Key Takeaways
+Tuberculosis remains a major global health threat, particularly in resource-limited settings and among vulnerable populations. Early diagnosis using molecular tests like GeneXpert, complete treatment adherence, and addressing drug resistance are critical. Prevention through LTBI treatment, infection control, and eventually a more effective vaccine are essential for achieving global TB elimination targets. Multisectoral approaches addressing social determinants of health are necessary to tackle the TB epidemic comprehensively.

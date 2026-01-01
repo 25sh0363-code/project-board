@@ -1,17 +1,71 @@
-# Tuberculosis in America
+Tuberculosis in America — Knowledge Base
+1. Conceptual Overview
+Tuberculosis (TB) is a chronic infectious disease caused by Mycobacterium tuberculosis, primarily affecting the lungs but can involve other organs. TB spreads through airborne particles and can remain latent for years.
 
-Tuberculosis has been a significant public health concern in America since the early 2000s. The disease patterns have evolved considerably over the past two decades.
+In America, TB has transitioned from a major public health threat to a relatively controlled disease, though challenges remain in vulnerable populations.
 
-## Historical Overview
-In the year 2000, America reported its initial cases of Tuberculosis, marking the beginning of extensive monitoring and public health interventions. The government responded by establishing specialized treatment centers and launching awareness campaigns.
+2. Historical Evolution
+TB was a leading cause of death in America through the 19th and early 20th centuries. Improved living conditions, sanatoriums, and antibiotics (streptomycin 1940s, isoniazid 1950s) dramatically reduced TB.
 
-## Major Developments
-Between 2005 and 2010, America experienced fluctuating case numbers due to various factors including improved diagnostic capabilities, public health initiatives, and changing demographic patterns. Healthcare infrastructure was significantly enhanced during this period.
+By the 1980s, TB declined significantly but re-emerged with HIV/AIDS epidemic and immigration. Modern TB control includes screening, treatment programs, and addressing drug-resistant TB.
 
-## Recent Trends
-From 2015 onwards, America has implemented advanced treatment protocols and prevention strategies. The integration of technology in healthcare delivery has improved disease tracking and patient outcomes. Modern medical interventions have shown promising results in managing Tuberculosis.
+3. Pathophysiology
+Inhalation of Mycobacterium tuberculosis
+Latent TB infection (bacteria contained but not eliminated) vs Active TB disease
+Granuloma formation
+Drug resistance when treatment incomplete
 
-## Current Status
-As of 2025, America continues to monitor and manage Tuberculosis cases through comprehensive healthcare programs. Ongoing research and international collaboration contribute to better understanding and treatment of this condition.
+4. Clinical Manifestations
+Pulmonary TB: persistent cough, fever, night sweats, weight loss, hemoptysis
+Extrapulmonary TB: varied symptoms depending on site
 
-Data Source: National Health Database and WHO estimates.
+5. Transmission
+Airborne droplet nuclei from active TB cases
+Risk with prolonged close contact, poor ventilation, crowding
+
+6. Diagnosis
+Sputum microscopy and culture
+Molecular tests (GeneXpert)
+Chest X-ray
+TST and IGRA for latent TB
+Drug susceptibility testing
+
+7. Treatment
+6-month regimen for drug-sensitive TB
+9-20 months for drug-resistant TB
+Directly Observed Therapy (DOT)
+Latent TB treatment to prevent activation
+
+8. Current Trends
+Low incidence compared to global burden
+Cases concentrated in foreign-born persons, homeless, incarcerated, HIV+ individuals
+Drug-resistant TB surveillance
+Strong TB control infrastructure
+
+9. Future Projections
+Continued low incidence with sustained efforts
+Focus on high-risk populations
+Treatment advances
+Elimination goals
+
+10. Challenges
+Reaching vulnerable populations
+Treatment completion
+Drug-resistant TB
+Social determinants of health
+
+11. Prevention and Control
+Screening of high-risk groups
+Latent TB treatment
+Contact investigation
+Infection control
+Immigration screening
+
+12. Public Health Response
+CDC TB Elimination Program
+State and local TB programs
+Surveillance systems
+Research funding
+
+13. Summary
+TB in America is well-controlled through comprehensive public health programs, but sustained efforts are needed to maintain low incidence and address challenges in vulnerable populations toward elimination goals.
