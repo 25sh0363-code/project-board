@@ -269,31 +269,6 @@ CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0
    - Speak disease and country
    - App auto-updates
 
-## 🎓 Educational Value
-
-### For Students
-- Learn disease epidemiology
-- Understand data visualization
-- Explore global health trends
-- Practice data analysis
-
-### For Educators
-- Teaching tool for public health courses
-- Real-world data examples
-- Interactive learning experience
-- Demonstrate data-driven decision making
-
-### For Healthcare Professionals
-- Quick reference for disease statistics
-- Compare regional differences
-- Access comprehensive disease information
-- Stay updated with latest news
-
-### For General Public
-- Understand disease risks
-- Learn prevention strategies
-- Track health trends
-- Make informed health decisions
 
 ## 🛠️ Troubleshooting
 
